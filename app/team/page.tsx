@@ -55,7 +55,6 @@ export default function Team() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
-
             {/* Main Title */}
             <motion.h1
               initial={{ opacity: 0, y: 30 }}
@@ -155,13 +154,13 @@ export default function Team() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
             {[
               {
-                name: "Emmanuel",
+                name: "Ayshatu Mohammed",
                 role: "Research Team Member",
                 description:
                   "Dedicated researcher contributing to multimodal learning approaches",
-                avatar: "/emma1.jpg",
-                email: "emmanuel@speechresearch.org",
-                linkedin: "emmanuel",
+                avatar: "/isha.jpeg",
+                email: "ayshatu.mohammed@speechresearch.org",
+                linkedin: "ayshatu-mohammed",
               },
               {
                 name: "Emmanuel Adoum",
@@ -172,23 +171,24 @@ export default function Team() {
                 email: "emmanuel.adoum@speechresearch.org",
                 linkedin: "emmanuel-adoum",
               },
-              {
-                name: "Ayshatu Mohammed",
-                role: "Research Team Member",
-                description:
-                  "Dedicated researcher contributing to multimodal learning approaches",
-                avatar: "/emma1.jpg",
-                email: "ayshatu.mohammed@speechresearch.org",
-                linkedin: "ayshatu-mohammed",
-              },
+
               {
                 name: "Chioma Chukuemeka",
                 role: "Research Team Member",
                 description:
                   "Research specialist focused on speech articulation and motor planning",
-                avatar: "/emma1.jpg",
+                avatar: "/chioma.jpg",
                 email: "chioma.chukuemeka@speechresearch.org",
                 linkedin: "chioma-chukuemeka",
+              },
+              {
+                name: "Emmanuel",
+                role: "Research Team Member",
+                description:
+                  "Dedicated researcher contributing to multimodal learning approaches",
+                avatar: "/emmanuel.jpeg",
+                email: "emmanuel@speechresearch.org",
+                linkedin: "emmanuel",
               },
               {
                 name: "Vivance",
