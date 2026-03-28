@@ -1,11 +1,11 @@
 "use client";
 
 import { Card, CardContent } from "@/components/ui/card";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { ArrowRight, BookOpen, Heart, Music, Users } from "lucide-react";
 import Link from "next/link";
 
-const containerVariants = {
+const containerVariants: Variants = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
@@ -15,7 +15,7 @@ const containerVariants = {
   },
 };
 
-const itemVariants = {
+const itemVariants: Variants = {
   hidden: { opacity: 0, y: 20 },
   visible: {
     opacity: 1,
@@ -83,7 +83,7 @@ export default function Home() {
               <div className="mb-8 inline-flex items-center gap-3 rounded-full border border-blue-400/30 bg-blue-500/10 px-5 py-2 backdrop-blur-md">
                 <motion.div
                   animate={{ scale: [1, 1.2, 1] }}
-                  eransition={{ duration: 2, repeat: Infinity }}
+                  transition={{ duration: 2, repeat: Infinity }}
                   className="h-2 w-2 rounded-full bg-blue-400"
                 />
                 <span className="text-sm font-medium text-blue-300">
